@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "superf1cial.mhc_decay_patch.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mhc_decay_patch.refmap.json",
+  "mixins": [
+    "ShigarakiAccessor",
+    "ShigarakiMixin",
+    "HokaiEruptionMixin",
+    "SkillMathMixin",
+    "JJKCapMixin",
+    "OneForAllMixin"
+  ],
+  "client": [
+    "client.DecayCrumbleRendererMixin",
+    "client.EruptionPlaneAccessor",
+    "client.HokaiEruptionRendererMixin",
+    "client.LightTextureAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
